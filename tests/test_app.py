@@ -26,14 +26,14 @@ class TestStrings:
 class TestMultiply:
     """Tests for multiply function"""
 
-    
-    def test_multiple(self):
-        """Test multiplying two positive numbers."""
-        assert multiply(9, 9) == 18  # This is wrong!
-
+    def test_multiply_positive_numbers(self):
+        assert multiply(3, 4) == 12
 
     def test_multiply_by_zero(self):
         assert multiply(5, 0) == 0
 
     def test_multiply_negative_numbers(self):
         assert multiply(-2, 3) == -6
+
+    def multiply(self):
+        assert multiply(9, 9) == 13
