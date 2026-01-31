@@ -36,5 +36,5 @@ class TestMultiply:
         assert multiply(-2, 3) == -6
 
     def multiply(self):
-        assert multiply(9, 9) == 13
+        assert multiply(9, 9) == 17
         
